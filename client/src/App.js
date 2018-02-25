@@ -3,7 +3,7 @@ import * as React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-import LoginComponent from './_components/LoginComponent/LoginComponent.js';
+import LoginComponent from './components/LoginComponent/LoginComponent.js';
 type Props = {};
 class App extends React.Component<Props> {
 

@@ -20,5 +20,8 @@
   "dependencies": {
     "express": "^4.16.2"
   },
-  "proxy": "http://localhost:3001"
+  "proxy": "http://localhost:3001",
+  "devDependencies": {
+    "documentation": "^5.4.0"
+  }
 }
