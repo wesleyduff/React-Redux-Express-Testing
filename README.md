@@ -23,3 +23,8 @@ cd into *client*
 
 `client: npm start`
 
+## Run Docs example :
+`client: npm run docs`
+
+You will see a port number and the docs will be hosted on that port. 
+
