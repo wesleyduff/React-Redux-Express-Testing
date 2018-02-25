@@ -29,7 +29,7 @@ cd into *client*
 You will see a port number and the docs will be hosted on that port. 
 
 ## Run test example :
-`client: jest <regex>` if you have jest installed with **-g**
+`client: jest <regex>` |  if you have jest installed with **-g**
 
 `client: npm run test:watch` | Watches files as you work
 
