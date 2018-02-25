@@ -31,7 +31,7 @@ You will see a port number and the docs will be hosted on that port.
 ## Run test example :
 `client: jest <regex>` if you have jest installed with **-g**
 
-`client: npm run test:watch | Watches files as you work
+`client: npm run test:watch` | Watches files as you work
 
 `client: npm run test:cover` | Gives you test coverage
 
