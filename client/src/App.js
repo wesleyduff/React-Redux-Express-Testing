@@ -1,14 +1,21 @@
-import React, { Component } from 'react';
+// @flow
+import * as React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-class App extends Component {
+import LoginComponent from './_components/LoginComponent/LoginComponent.js';
+type Props = {};
+class App extends React.Component<Props> {
+
   render() {
     return (
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Welcome to React</h1>
+          <LoginComponent
+            foo={1}
+            />
         </header>
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
