@@ -5,7 +5,8 @@ This repo will be a good starting point to start testing in a successful TDD fas
 - Jest : https://facebook.github.io/jest/ : Test Runner
 - Enzyme : http://airbnb.io/enzyme/docs/api/ : Testing tool 
 - Chromeless : https://github.com/graphcool/chromeless : Ui Testing Tool for e2e Testing
-- jsDoc : http://usejsdoc.org/ : Documentation Generator
+- jsDoc : http://usejsdoc.org/ : Documentation Generator : 
+-- Have to use documentation due to flow annotations : https://github.com/documentationjs/documentation/blob/master/docs/GETTING_STARTED.md
 
 I will be starting off with a create react app under the *client* folder. The root of the application will be an *Express* application. 
 
