@@ -13,4 +13,11 @@ The *create react app* will be ejected so I will have access to the webpack file
 ## Find more info in the wiki
 The wiki will include some good information as I make slides and talks about each of the testing tools and how the four tier works in a coporate environent.
 
+## Run Example :
+
+`root : npm start`
+
+cd into *client*
+
+`client: npm start`
 
