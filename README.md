@@ -1,10 +1,11 @@
 # Four Tiers to Successful Testing
 This repo will be a good starting point to start testing in a successful TDD fashion. Listed below are the testing tools this application will be using. 
 
-- Flow : https://flow.org/
-- Jest : https://facebook.github.io/jest/
-- Enzyme : http://airbnb.io/enzyme/docs/api/
-- Chromeless : https://github.com/graphcool/chromeless
+- Flow : https://flow.org/ : JavaScript Type Checking
+- Jest : https://facebook.github.io/jest/ : Test Runner
+- Enzyme : http://airbnb.io/enzyme/docs/api/ : Testing tool 
+- Chromeless : https://github.com/graphcool/chromeless : Ui Testing Tool for e2e Testing
+- jsDoc : http://usejsdoc.org/ : Documentation Generator
 
 I will be starting off with a create react app under the *client* folder. The root of the application will be an *Express* application. 
 
