@@ -1,0 +1,24 @@
+{
+  "name": "react-redux-express-testing",
+  "version": "1.0.0",
+  "description": "\"# Rect-Redux-Express-Testing\"",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wesleyduff/React-Redux-Express-Testing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wesleyduff/React-Redux-Express-Testing/issues"
+  },
+  "homepage": "https://github.com/wesleyduff/React-Redux-Express-Testing#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  },
+  "proxy": "http://localhost:3001"
+}
