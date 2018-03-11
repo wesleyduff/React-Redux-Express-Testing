@@ -44,11 +44,11 @@
     "whatwg-fetch": "2.0.3"
   },
   "scripts": {
-    "start": "node scripts/start.js",
+    "start": "node --inspect scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js --env=jsdom",
     "flow": "flow",
-    "docs" : "SET NODE_ENV=test&& documentation serve src/components/**"
+    "docs": "SET NODE_ENV=test&& documentation serve src/components/**"
   },
   "jest": {
     "collectCoverageFrom": [
@@ -101,6 +101,9 @@
     "enzyme": "^3.3.0",
     "enzyme-adapter-react-16": "^1.1.1",
     "flow-bin": "^0.66.0",
-    "jsdoc": "^3.5.5"
+    "i": "^0.3.6",
+    "jsdoc": "^3.5.5",
+    "nock": "^9.2.3",
+    "superagent": "^3.8.2"
   }
 }
