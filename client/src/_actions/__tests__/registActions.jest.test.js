@@ -1,6 +1,5 @@
 import * as ActionTypes from '../../_constants/actionTypes';
 import * as ActionCreators from '../registerActions';
-import { ENODATA } from 'constants';
 
 describe('Actions', () => {
     let username = "fake@fake.com";
