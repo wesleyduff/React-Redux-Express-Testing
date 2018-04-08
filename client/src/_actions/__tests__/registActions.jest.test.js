@@ -4,6 +4,24 @@ import * as ActionCreators from '../registerActions';
 describe('Actions', () => {
     let username = "fake@fake.com";
     let password = "@Password1";
+    const dispatch = jest.fn();
+
+
+    it("Should set a user", () => {
+        const user =  {
+            id: '00001',
+            email: 'fake@fake.com',
+            JWT: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.XbPfbIHMI6arZ3Y922BhjWgQzWXcXNrz0ogtVhfEd2o'
+        };
+
+        const expected = {
+            type: ActionTypes.SET_USER,
+            user
+        };
+        
+        const actual = ActionCreators.setUser(user);
+        expect(actual).toEqual(expected);
+    })
 
     it("Should start the process of registering a user", () => {
         const dispatch = jest.fn();

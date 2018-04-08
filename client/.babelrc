@@ -1,0 +1,9 @@
+{
+    "presets": [
+      "stage-0",
+      "react-app",
+      "react",
+      "flow"
+    ],
+    "plugins": ["transform-object-rest-spread"]
+  }

@@ -4,18 +4,17 @@ import {
     CLEAR_ERROR,
     AWS_SIGN_UP_SAVING,
     AWS_SIGN_UP_FAIL,
-    AWS_SIGN_UP_SUCCESS
+    AWS_SIGN_UP_SUCCESS,
+    SET_USER
 } from '../_constants/actionTypes.js';
 import Login from '../_actionRequests/login';
 
-const actions = {
-    setUser : ((user) => {
-        return {
-            type: SET_USER,
-            user
-        }
-    })
-}
+export function setUser(user) {
+    return {
+        type: SET_USER,
+        user
+    }
+};
 
 export function throwError(data) {
         return {
@@ -52,16 +51,16 @@ export function awsSignUpUserSuccess(data){
 /** 
  * THUNKS
  */
-const thunks = {
-    login: (username, password) => {
+export function login(username, password) {
+    return (dispatch => {
         Login()
-            .then(login_result => {
-                if(login_result.id) {
-
-                }
-            })
-    }
-}
+        .then(login_result => {
+            if(login_result.id) {
+                return dispatch(this.setUser(login_result));
+            }
+        })
+    });
+};
 export function AWS_SignUpUser(username, password) {
     return (dispatch => {
         const data = {username, password};

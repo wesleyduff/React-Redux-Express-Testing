@@ -68,9 +68,6 @@
     "transformIgnorePatterns": [
       "[/\\\\]node_modules[/\\\\].+\\.(js|jsx|mjs)$"
     ],
-    "moduleNameMapper": {
-      "^react-native$": "react-native-web"
-    },
     "moduleFileExtensions": [
       "web.js",
       "mjs",
@@ -81,21 +78,15 @@
       "node"
     ]
   },
-  "babel": {
-    "presets": [
-      "stage-3",
-      "react-app",
-      "flow"
-    ],
-    "plugins": ["transform-object-rest-spread"]
-  },
   "eslintConfig": {
     "extends": "react-app"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
+    "babel-plugin-transform-es2015-destructuring": "^6.23.0",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-flow": "^6.23.0",
+    "babel-preset-stage-0": "^6.24.1",
     "babel-preset-stage-1": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1",
     "babel-preset-stage-3": "^6.24.1",
